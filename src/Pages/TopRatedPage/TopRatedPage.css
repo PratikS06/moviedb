@@ -1,0 +1,22 @@
+.top-rated-page {
+    padding: 2rem;
+  }
+  
+  .top-rated-page h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .movie-grid {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  /* Responsive Design */
+
+  @media (max-width: 768px) {
+    .top-rated-page h1 {
+      font-size: 1.5rem;
+    }
+  }
+  

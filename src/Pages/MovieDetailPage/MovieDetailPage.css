@@ -1,0 +1,122 @@
+.movie-detail-page {
+  padding: 2rem;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  backdrop-filter: brightness(0.4);
+}
+
+.movie-header{
+  background-color: #010A16;
+  border: none;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.second{
+  display: flex;
+  gap: 2rem;
+}
+.third{
+  height: 100%;
+  width: 100%;
+  
+}
+.movie-poster-details{
+  display: flex;
+  justify-content: space-between;
+  flex: auto;
+}
+
+.movie-poster {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.movie-bg-img{
+  object-fit: cover;
+
+}
+
+.movie-info {
+  flex: 1;
+}
+
+.movie-info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.rating {
+  font-size: 1.2rem;
+  color: #f39c12;
+}
+
+.movie-info p {
+  margin: 0.5rem 0;
+}
+
+.movie-info h3 {
+  margin-top: 1.5rem;
+}
+
+/* Cast Section */
+.movie-cast {
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.movie-cast h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.cast-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cast-card {
+  width: 120px;
+  text-align: center;
+}
+
+.cast-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.cast-card p {
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .movie-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .movie-poster {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .movie-info {
+    margin-top: 1rem;
+  }
+
+  .cast-container {
+    justify-content: center;
+  }
+  .movie-bg-img{
+    display: none;
+  }
+}

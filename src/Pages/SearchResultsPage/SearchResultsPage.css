@@ -1,0 +1,38 @@
+.search-results-page {
+    padding: 2rem;
+  }
+  
+  .search-results-page h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .search-query{
+    font-size: 40px;
+    color: aqua;
+    padding: 5px 30px;
+    border-radius: 10px;
+    margin: auto;
+  }
+  
+  .movie-grid {
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .search-error {
+    text-align: center;
+    font-size: 1.5rem;
+    color: red;
+    margin-top: 2rem;
+  }
+
+/* Responsive Design   */
+  @media (max-width: 768px) {
+    .search-results-page h1 {
+      font-size: 1.5rem;
+    }
+  
+  }
+  
